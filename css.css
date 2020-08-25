@@ -1,0 +1,31 @@
+body {
+ color : #00BB00 ;
+ background-color : #111111 ;
+}
+
+a {
+color : #00FF00 ;
+}
+
+#navi {
+ position:absolute ;
+ top:0 ;
+ left:0px ;
+ width:100px ;
+ height:100% ;
+ text-align:center ;
+}
+
+#contents {
+ position:absolute ;
+ top : 0 ;
+ right : 0 ;
+ left : 100px ;
+ height : 100% ;
+ border-left:2px solid #00BB00 ;
+}
+
+iframe {
+  height : 100% ;
+  width : 100% ;
+}
