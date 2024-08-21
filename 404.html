@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <title>リダイレクト中...</title>
+</head>
+
+<body>
+    <script>
+        let url = "https://hakurei.win";
+
+        let pathname = window.location.pathname;
+        if (!pathname.endsWith("/")) {
+            pathname += "/";
+        }
+
+        if (pathname.startsWith("/base1112031/")) {
+            url += "/apps" + pathname;
+        } else if (pathname.startsWith("/bin2img/")) {
+            url += "/apps" + pathname;
+        } else {
+            url += window.location.pathname;
+        }
+
+        url += window.location.search + window.location.hash;
+
+        window.location.href = url;
+    </script>
+</body>
+
+</html>
